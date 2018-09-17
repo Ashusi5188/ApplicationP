@@ -14,7 +14,7 @@ def step_impl(context):
 
 @when("User enter first number")
 def step_impl(context):
-    sleep(2)
+    sleep(3)
     autoit.mouse_click("", 440, 518, 1, 0)
 
 
